@@ -55,7 +55,7 @@ model.compile(
     optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Define the number of epochs
-num_epochs = 10
+num_epochs = 50
 
 # Fit the model
 fit_history = model.fit(x_train, y_train,
